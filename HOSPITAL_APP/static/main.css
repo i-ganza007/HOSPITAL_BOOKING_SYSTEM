@@ -1,0 +1,32 @@
+body{
+    font-family:'Playfair Display','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.custom-footer-bg {
+    background-color: #80B918; /* Background color you want */
+}
+.navbar-top{
+    background-color: #80B918; 
+}
+.color{
+    color: black;
+}
+.sticky_bottom{
+    position: sticky;
+    bottom: 0px;
+}
+#text-desc{
+    width: 100%;
+    font-size:1.5rem;
+}
+.content-section{
+    max-width: 60%;
+    margin-inline: auto;
+}
+.container{
+    max-width: 100%;
+    border-bottom: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px 5px;    
+}
