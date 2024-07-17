@@ -1,0 +1,14 @@
+{%extends 'layout.html'%}
+{%block content%}
+<div class="container">
+    {%for speciality in specialities%}
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{speciality.title}}</h5>
+          <p class="card-text">{{speciality.content}}</p>
+          <a href="#" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div>
+    {%endfor%}
+</div>
+{%endblock %}
